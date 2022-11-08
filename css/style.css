@@ -1,0 +1,175 @@
+a{
+    text-decoration: none;
+}
+
+.hero1{
+    background: url(../images/slide-1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.hero2{
+    background:url(../images/slide-2.jpg);
+    height:100vh;
+    background-size: 100% 100%;
+}
+
+.owl-dots{
+    position: relative;
+    bottom:40px;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+
+.bg-blue{
+    background-color: #02b5ff;
+}
+.text-blue{
+    color: #02b5ff;
+}
+
+.bg-grey{
+    background-color: #f8f8f8;
+}
+
+.auto{
+    margin: 0 auto;
+}
+
+.auto1{
+    margin: 0 auto ;
+}
+
+
+/* hover efficts */
+.hover-blue{
+    transition: 1s;
+}
+
+.hover-blue:hover{
+    color:#02b5ff !important;
+}
+
+.hover-div{
+    transition: 1s ;
+}
+
+.hover-div:hover {
+    border: 2px solid #02b5ff !important;
+}
+
+.hover-btn{
+    transition: 1s;
+}
+
+.hover-btn:hover{
+    background-color: #fff !important;
+    color:#02b5ff !important;
+    border:1px solid #02b5ff !important; 
+}
+
+.hover-div2{
+    transition: 1s;
+}
+.hover-div2 h4{
+    transition: 1s;
+}
+.hover-div2 img{
+    transition: 2s;
+}
+
+.hover-btn2:hover i{
+    animation-name:Move-Right !important;
+    animation-duration:1s !important;
+}
+
+.hover-div2:hover{
+    background-color: #02b5ff !important;
+}
+
+.hover-div2:hover a{
+    border: 1px solid white !important;
+    
+}
+
+.hover-div2:hover h4 {
+    color: white !important;
+}
+
+.hover-div2:hover img{
+    transform: scale(0.9) !important;
+}
+
+.hover-div3{
+    transition:2s;
+}
+
+.hover-div3 a{
+    transition: 2s;
+}
+
+
+.hover-btn3:hover i{
+    animation-name: Move-Right !important;
+    animation-duration: 1s !important;
+}
+
+.hover-div3:hover{
+    transform: scale(1.1) !important;
+    background-color: #fff !important;
+}
+.hover-div3:hover a{
+    background: #fff !important;
+    color:#02b5ff !important;
+}
+
+.hover-div4{
+    transition: 1s;
+}
+
+.hover-div4 h3{
+    transition: 1s;
+}
+
+.hover-div4 button{
+    transition: 1s;
+}
+
+.hover-div4:hover h3{
+    color: #02b5ff;
+}
+
+
+.hover-div4:hover button{
+    background-color: #02b5ff !important;
+    color: #fff !important;
+}
+/* media queries */
+@media screen and (min-width:768px){
+    .center{margin: 0 auto;}
+
+    
+}
+
+@media screen and (min-width:1024px){
+    .center{
+        margin:0 auto 0 0;
+    }
+
+    .auto{
+        margin: 0 0 0 auto;
+    }
+    .auto1{
+        margin: 0 auto 0 0;
+    }
+}
+
+@keyframes Move-Right{
+    0%{transform: translateX(15px);}
+    25%{transform: translateX(-5px);}
+    50%{transform: translateX(10px);}
+    100%{transform: translateX(-5px);}
+    
+}
